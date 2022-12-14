@@ -13,7 +13,7 @@ export function Home() {
 
   return (
         <>
-          <Container>
+          <Container fluid>
             <Row>
               <Col>
                 <h1>Test</h1>
