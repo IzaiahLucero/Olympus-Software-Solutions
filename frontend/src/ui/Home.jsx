@@ -1,6 +1,8 @@
 import React, {useEffect} from "react"
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap'
 import { useDispatch } from 'react-redux'
+import { EmployeeBadge } from './EmployeeBadge.jsx'
+import { Navigation } from './Navigation.jsx'
 
 
 export function Home() {
@@ -13,10 +15,11 @@ export function Home() {
 
   return (
         <>
-          <Container fluid>
-            <Row>
+          <Navigation/>
+          <Container>
+            <Row className="p-3">
               <Col>
-                <h1>Test</h1>
+                <h3>Dashboard</h3>
               </Col>
             </Row>
           </Container>
