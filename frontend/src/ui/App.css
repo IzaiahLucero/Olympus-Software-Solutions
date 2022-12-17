@@ -1,0 +1,14 @@
+#dataField {
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    color: blackgit sta;
+    font-size: 1em;
+}
+
+h5 {
+    color: dimgrey;
+}

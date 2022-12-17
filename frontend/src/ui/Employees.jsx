@@ -1,4 +1,4 @@
-import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap'
+import { Button, Col, Container, Nav, Navbar, Row } from 'react-bootstrap'
 import { EmployeeBadge } from './EmployeeBadge.jsx'
 import React from 'react'
 import { Navigation } from './Navigation.jsx'
@@ -11,6 +11,9 @@ export function Employees() {
           <Row className="p-3">
             <Col>
               <h3>Employees</h3>
+            </Col>
+            <Col xs={2}>
+              <Button href="AddEmployee">Add Employee</Button>
             </Col>
           </Row>
           <Row className="px-3 text-center">
@@ -29,11 +32,11 @@ export function Employees() {
             <Col xs={2}>
               Phone
             </Col>
-            <Col xs={1}>
-              Extension
-            </Col>
             <Col xs={2}>
               Email
+            </Col>
+            <Col xs={1}>
+
             </Col>
           </Row>
 
@@ -53,11 +56,11 @@ export function Employees() {
             <Col xs={2}>
               505.555.1234
             </Col>
-            <Col xs={1}>
-              101
-            </Col>
             <Col xs={2}>
               izaiahlucero@outlook.com
+            </Col>
+            <Col xs={1}>
+              <Button href="EmployeeProfile">Manage</Button>
             </Col>
           </Row>
 
@@ -77,11 +80,11 @@ export function Employees() {
             <Col xs={2}>
               715.239.5555
             </Col>
-            <Col xs={1}>
-              102
-            </Col>
             <Col xs={2}>
               smith.kelly@gmail.com
+            </Col>
+            <Col xs={1}>
+              <Button href="AccountsPayable">Manage</Button>
             </Col>
           </Row>
 
@@ -101,11 +104,11 @@ export function Employees() {
             <Col xs={2}>
               505.555.1234
             </Col>
-            <Col xs={1}>
-              101
-            </Col>
             <Col xs={2}>
               elizabethtrujillo@icloud.com
+            </Col>
+            <Col xs={1}>
+              <Button href="AccountsPayable">Manage</Button>
             </Col>
           </Row>
         </Container>
