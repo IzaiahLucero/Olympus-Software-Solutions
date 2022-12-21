@@ -10,6 +10,7 @@ import { Customers } from './Customers.jsx'
 import { AccountsPayable } from './AccountsPayable'
 import { EmployeeProfile } from './EmployeeProfile'
 import { AddEmployee } from './AddEmployee.jsx'
+import { AddCustomer } from './AddCustomer.jsx'
 
 
 
@@ -26,6 +27,7 @@ export function App({store}) {
                         <Route path={"/accountspayable"} element={<AccountsPayable/>} />
                         <Route path={"/employeeprofile"} element={<EmployeeProfile/>} />
                         <Route path={"/addemployee"} element={<AddEmployee/>} />
+                        <Route path={"/addcustomer"} element={<AddCustomer/>} />
                     </Routes>
                 </BrowserRouter>
             </Provider>

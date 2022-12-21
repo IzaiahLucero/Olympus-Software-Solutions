@@ -4,14 +4,16 @@ import React from 'react'
 export function Navigation () {
   return (
     <>
-      <Navbar bg="light" variant="light">
+      <Navbar id="navigationBar">
         <Container>
-          <Navbar.Brand href="#home">Olympus Software Solutions</Navbar.Brand>
+          <Navbar.Brand href="#home" id="navBarText">efficiency</Navbar.Brand>
           <Nav className="justify-content-end">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="Employees">Employees</Nav.Link>
-            <Nav.Link href="Customers">Customers</Nav.Link>
-            <Nav.Link href="AccountsPayable">Accounts Payable</Nav.Link>
+            <Nav.Link id="navBarText" href="/">Home</Nav.Link>
+            <Nav.Link  id="navBarText" href="Employees">Employees</Nav.Link>
+            <Nav.Link id="navBarText" href="Customers">Customers</Nav.Link>
+            <Nav.Link id="navBarText" href="AddCustomer">Add Customer</Nav.Link>
+            <Nav.Link id="navBarText" href="AccountsPayable">Accounts Payable</Nav.Link>
+
           </Nav>
         </Container>
       </Navbar>

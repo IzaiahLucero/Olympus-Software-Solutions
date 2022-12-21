@@ -13,7 +13,7 @@ export function Employees() {
               <h3>Employees</h3>
             </Col>
             <Col xs={2}>
-              <Button href="AddEmployee">Add Employee</Button>
+              <Button href="AddEmployee" id="buttonBackground">Add Employee</Button>
             </Col>
           </Row>
           <Row className="px-3 text-center">
@@ -40,7 +40,7 @@ export function Employees() {
             </Col>
           </Row>
 
-          <Row className="p-3 my-2 bg-light border border-1 rounded text-center align-items-center">
+          <Row className="p-3 my-2 bg-dark bg-opacity-10 border border-1 rounded text-center align-items-center">
             <Col xs={1}>
               1000
             </Col>
@@ -60,11 +60,11 @@ export function Employees() {
               izaiahlucero@outlook.com
             </Col>
             <Col xs={1}>
-              <Button href="EmployeeProfile">Manage</Button>
+              <Button href="EmployeeProfile" id="buttonBackground">Manage</Button>
             </Col>
           </Row>
 
-          <Row className="p-3 my-2 bg-light border border-1 rounded text-center align-items-center">
+          <Row className="p-3 my-2 bg-dark bg-opacity-10 border border-1 rounded text-center align-items-center">
             <Col xs={1}>
               1001
             </Col>
@@ -84,11 +84,11 @@ export function Employees() {
               smith.kelly@gmail.com
             </Col>
             <Col xs={1}>
-              <Button href="AccountsPayable">Manage</Button>
+              <Button href="AccountsPayable" id="buttonBackground">Manage</Button>
             </Col>
           </Row>
 
-          <Row className="p-3 my-2 bg-light border border-1 rounded text-center align-items-center">
+          <Row className="p-3 my-2 bg-dark bg-opacity-10 border border-1 rounded text-center align-items-center">
             <Col xs={1}>
               1002
             </Col >
@@ -108,7 +108,7 @@ export function Employees() {
               elizabethtrujillo@icloud.com
             </Col>
             <Col xs={1}>
-              <Button href="AccountsPayable">Manage</Button>
+              <Button href="AccountsPayable" id="buttonBackground">Manage</Button>
             </Col>
           </Row>
         </Container>
